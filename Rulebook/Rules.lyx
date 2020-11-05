@@ -83,7 +83,7 @@
 
 \begin_layout Title
 \begin_inset Graphics
-	filename E:/Dropbox/18Dracula/1.2/Src/Rulebook/Images/Logo.svg
+	filename Images/Logo.svg
 	width 10cm
 
 \end_inset
@@ -2313,12 +2313,12 @@ Starts with Steelclaw and a token in Balath.
  Pays half collection to owner, half to store.
  On purchase by front, its store, and Steelclaw are merged into the purchasing
  front.
- Its token can be used by the purchasing front until removed.
+ On purchase, remove office or optionally replace them with the next office
+ from purchasing front without additional payment.
 \end_layout
 
 \begin_layout Standard
-Token removed at Phase 4.
- Closes in Phase 4.
+Closes in Phase 4.
  
 \end_layout
 
@@ -2338,15 +2338,13 @@ Price:
 Starts with 1 Nurse, 1 Token in Blackford.
  Starts with 30 pts in store.
  Pays half collection to owner, half to store.
- On purchase by front, its store, tokens and nurses are merged into the
- purchasing front.
- Its tokens can be used by, or placed by the purchasing front until removed.
+ On purchase, remove offices or optionally replace them with the next offices
+ from purchasing front without additional payment.
  The purchasing front may not purchase additional nurses.
 \end_layout
 
 \begin_layout Standard
-Can buy an additional token for 40 pts Tokens removed at Phase 4.
- Closes in Phase 4.
+Can buy an additional token for 40 pts Closes in Phase 4.
  
 \end_layout
 

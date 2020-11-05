@@ -13,7 +13,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="Map.svg"
+   sodipodi:docname="Board.svg"
    inkscape:export-filename="E:\Dropbox\18Dracula\1.2\Dist\MapAll.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
@@ -250,14 +250,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.80160299"
-     inkscape:cx="640.96526"
-     inkscape:cy="703.22319"
+     inkscape:zoom="0.56681891"
+     inkscape:cx="457.22467"
+     inkscape:cy="1108.3415"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer8"
      showgrid="false"
      inkscape:window-width="2003"
-     inkscape:window-height="1408"
+     inkscape:window-height="1401"
      inkscape:window-x="1190"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -374,8 +374,7 @@
      id="layer8"
      inkscape:label="Routes"
      transform="translate(219.99387,-442.08997)"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.065, 1.065;stroke-dashoffset:0;stroke-opacity:1"
        d="m -175.98734,733.02362 32.41891,-18.18848"
@@ -1315,7 +1314,7 @@
        inkscape:export-ydpi="96" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.065, 1.065;stroke-dashoffset:0;stroke-opacity:1"
-       d="m -56.448277,773.91198 0.326887,-34.6513"
+       d="m -56.448277,773.91198 -8.308661,-30.68361"
        id="path4459"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -1324,7 +1323,7 @@
        inkscape:export-ydpi="96" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.065, 1.065;stroke-dashoffset:0;stroke-opacity:1"
-       d="M -37.720776,711.45056 -56.96053,739.57067 -5.9926259,733.1276"
+       d="m -37.720776,711.45056 -26.825032,31.27092 58.5531821,-9.59388"
        id="path4461"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
@@ -1336,8 +1335,8 @@
        id="rect4463"
        width="7.7579522"
        height="7.7579522"
-       x="54.59045"
-       y="751.89276"
+       x="55.99081"
+       y="756.09381"
        rx="0.28553808"
        ry="0.26378539"
        transform="scale(-1,1)"
@@ -1348,8 +1347,8 @@
        transform="scale(-1,1)"
        ry="0.26378539"
        rx="0.28553808"
-       y="725.38586"
-       x="47.082195"
+       y="726.66956"
+       x="51.399967"
        height="7.7579522"
        width="7.7579522"
        id="rect4465"
@@ -1362,8 +1361,8 @@
        id="rect4467"
        width="7.7579522"
        height="7.7579522"
-       x="32.891376"
-       y="733.18164"
+       x="33.358162"
+       y="734.58197"
        rx="0.28553808"
        ry="0.26378539"
        transform="scale(-1,1)"
@@ -2501,8 +2500,7 @@
      id="layer4"
      inkscape:label="Towns"
      style="display:inline;opacity:1"
-     transform="translate(219.99387,-442.08997)"
-     sodipodi:insensitive="true">
+     transform="translate(219.99387,-442.08997)">
     <g
        transform="translate(312.20661,-40.28505)"
        id="g15757"
@@ -3857,8 +3855,8 @@
          sodipodi:role="line">Cano </tspan></text>
     <circle
        r="2.2955079"
-       cy="739.11835"
-       cx="-56.586445"
+       cy="743.2027"
+       cx="-64.755203"
        id="circle5053"
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.298979;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.9799"
        inkscape:export-filename="E:\Dropbox\18Dracula\1.2\Src\Rulebook\Images\Example Town.png"
@@ -4919,16 +4917,16 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.58974px;line-height:1.25;font-family:'Inknut Antiqua';-inkscape-font-specification:'Inknut Antiqua';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.176573"
-       x="-64.936905"
-       y="739.78992"
+       x="-56.184662"
+       y="747.72528"
        id="text4451"
        inkscape:export-filename="E:\Dropbox\18Dracula\1.2\Src\Rulebook\Images\Example Town.png"
        inkscape:export-xdpi="150.63359"
        inkscape:export-ydpi="150.63359"><tspan
          sodipodi:role="line"
          id="tspan4449"
-         x="-64.936905"
-         y="739.78992"
+         x="-56.184662"
+         y="747.72528"
          style="text-align:center;text-anchor:middle;stroke-width:0.176573">Treight</tspan></text>
     <g
        id="g15870"
@@ -10680,7 +10678,8 @@
      id="layer9"
      inkscape:label="Starting Offices"
      transform="translate(219.99387,-442.08997)"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <circle
        style="display:inline;fill:#c8b7b7;stroke:#000000;stroke-width:0.264583"
        id="circle7220"
