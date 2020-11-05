@@ -1,6 +1,6 @@
 # 18Dracula: Medieval Edition - Change List
 
-## To release
+## 2020-11-05
 
 - Reduced phase 3 to 5->4 monsters
 - Reduced phase 2 routes from 6->5
