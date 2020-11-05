@@ -14,7 +14,7 @@
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="Board.svg"
-   inkscape:export-filename="E:\Dropbox\18Dracula\1.2\Dist\MapAll.png"
+   inkscape:export-filename="E:\Dropbox\18Dracula\MedievalEdition\Dist\MapAll.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -251,8 +251,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.56681891"
-     inkscape:cx="457.22467"
-     inkscape:cy="1108.3415"
+     inkscape:cx="684.69187"
+     inkscape:cy="1450.0053"
      inkscape:document-units="mm"
      inkscape:current-layer="layer8"
      showgrid="false"
@@ -290,10 +290,46 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Playingcards.io"
+     style="display:none">
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.065;stroke-linecap:round;stroke-linejoin:bevel"
+       id="rect2508"
+       width="418.24057"
+       height="443.91382"
+       x="0.93357271"
+       y="-0.46678635"
+       inkscape:export-filename="E:\Dropbox\18Dracula\MedievalEdition\Board18ish\Map Only.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="display:inline;fill:#f9f9f9;stroke:none;stroke-width:1.065;stroke-linecap:round;stroke-linejoin:bevel"
+       id="rect2510"
+       width="174.57811"
+       height="272.60321"
+       x="2.8007114"
+       y="316.01437"
+       inkscape:export-filename="E:\Dropbox\18Dracula\MedievalEdition\Board18ish\Phase.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#f9f9f9;stroke:none;stroke-width:1.065;stroke-linecap:round;stroke-linejoin:bevel"
+       id="rect2527"
+       width="240.39496"
+       height="160.57449"
+       x="175.97845"
+       y="427.10953"
+       inkscape:export-filename="E:\Dropbox\18Dracula\MedievalEdition\Board18ish\Market.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
@@ -374,7 +410,8 @@
      id="layer8"
      inkscape:label="Routes"
      transform="translate(219.99387,-442.08997)"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.065, 1.065;stroke-dashoffset:0;stroke-opacity:1"
        d="m -175.98734,733.02362 32.41891,-18.18848"
@@ -2500,7 +2537,8 @@
      id="layer4"
      inkscape:label="Towns"
      style="display:inline;opacity:1"
-     transform="translate(219.99387,-442.08997)">
+     transform="translate(219.99387,-442.08997)"
+     sodipodi:insensitive="true">
     <g
        transform="translate(312.20661,-40.28505)"
        id="g15757"
@@ -7114,8 +7152,7 @@
      id="layer1"
      inkscape:label="Phase Tracker"
      style="display:inline"
-     transform="translate(-181.77748,-61.215014)"
-     sodipodi:insensitive="true">
+     transform="translate(-181.77748,-61.215014)">
     <text
        xml:space="preserve"
        id="text263157"
