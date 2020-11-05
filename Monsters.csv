@@ -3,7 +3,7 @@ monster,name,flavor,phase,phase[style:fill],phaseColor[style:fill],cost,eatenTex
 1,"""Nurse""","The ""Doctor"" will see you now.",A,#dbdbe3,#dbdbe3,10 pts,Eaten by 4,#da8787,As many nurses can operate in a city as there are open routes.,n,n,n,N/A,n,0,1,cod
 1,"""Nurse""","The ""Doctor"" will see you now.",A,#dbdbe3,#dbdbe3,10 pts,Eaten by 4,#da8787,As many nurses can operate in a city as there are open routes.,n,n,n,N/A,n,0,1,cod
 1,"""Nurse""","The ""Doctor"" will see you now.",A,#dbdbe3,#dbdbe3,10 pts,Eaten by 4,#da8787,As many nurses can operate in a city as there are open routes.,n,n,n,N/A,n,0,1,cod
-1,Steelclaw,"They call him Steelclaw, but they spell it incorrectly. Stealclaw got his name because he was declawed as a pup.",A,#dbdbe3,#dbdbe3,,Eaten by 4,#da8787,     ,n,y,y,20 pts,n,0,2,cd
+1,Steelclaw,"They call him Steelclaw, but they spell it incorrectly. Stealclaw got his name because he was declawed as a pup.",A,#dbdbe3,#dbdbe3,,Eaten by 4,#da8787,     ,n,y,y,20 pts,n,0,3,cd
 1,Skeleton,*clink*,1,#ffe680,#ffe680,80 pts,Eaten by 3,#aaccff,     ,n,n,y,10 pts,n,0,2,cxd
 1,Skeleton,*click*,1,#ffe680,#ffe680,80 pts,Eaten by 3,#aaccff,     ,n,n,y,10 pts,n,0,2,cxd
 1,Skeleton,*clack*,1,#ffe680,#ffe680,80 pts,Eaten by 3,#aaccff,     ,n,n,y,10 pts,n,0,2,cxd
@@ -14,9 +14,9 @@ monster,name,flavor,phase,phase[style:fill],phaseColor[style:fill],cost,eatenTex
 1,Zombie,"Hi, my name's Hank.",1,#ffe680,#ffe680,60 pts,Eaten by 2,#c6e9af,     ,n,n,y,10 pts,n,0,2,cd
 1,Swearwolf,"I am a werewolf, I swear it on me mam's grave. ",1,#ffe680,#ffe680,60 pts,Eaten by 3,#aaccff,Eaten and removed if Fang hired by hiring front. Only one Swearwolf can operate in a city.,n,n,n,N/A,n,0,1,cod
 1,Swearwolf,"I am a werewolf, I swear it on me mam's grave.",1,#ffe680,#ffe680,60 pts,Eaten by 3,#aaccff,Eaten and removed if Fang hired by hiring front. Only one Swearwolf can operate in a city.,n,n,n,N/A,n,0,1,cod
-1,Suckling,,2,#c6e9af,#c6e9af,180 pts,Eaten by 4,#da8787,     ,y,n,y,0 pts,n,0,3,cxd
-1,Suckling,,2,#c6e9af,#c6e9af,180 pts,Eaten by 4,#da8787,     ,y,n,y,0 pts,n,0,3,cxd
-1,Suckling,,2,#c6e9af,#c6e9af,180 pts,Eaten by 4,#da8787,     ,y,n,y,0 pts,n,0,3,cxd
+1,Suckling,,2,#c6e9af,#c6e9af,160 pts,Eaten by 4,#da8787,     ,y,n,y,0 pts,n,0,3,cxd
+1,Suckling,,2,#c6e9af,#c6e9af,160 pts,Eaten by 4,#da8787,     ,y,n,y,0 pts,n,0,3,cxd
+1,Suckling,,2,#c6e9af,#c6e9af,160 pts,Eaten by 4,#da8787,     ,y,n,y,0 pts,n,0,3,cxd
 1,"""Hatchet"" Murray","The nickname Hatchet Murray is a misnomer, technically he uses an axe.",2,#c6e9af,#c6e9af,240 pts,Eaten by 4,#da8787,     ,n,n,y,10 pts,n,0,5,cxd
 1,Constable,,2,#c6e9af,#c6e9af,200 pts,Eaten by 4,#da8787,     ,n,n,y,10 pts,n,0,3,cxd
 1,Constable,,2,#c6e9af,#c6e9af,200 pts,Eaten by 4,#da8787,     ,n,n,y,10 pts,n,0,3,cxd
