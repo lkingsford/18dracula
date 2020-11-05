@@ -1,0 +1,2901 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language australian
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "Inknut Antiqua"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 2
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\begin_inset Graphics
+	filename E:/Dropbox/18Dracula/1.2/Src/Rulebook/Images/Logo.svg
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+Lachlan Kingsford
+\end_layout
+
+\begin_layout Date
+Prototype rules as of 2020-10-31
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Subsection
+Prototype Notes
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\uuline on
+WARNING: This is not a finished product, and all aspects - including the
+ board, the rules and the associate powers are subject to change.It won't
+ look as 'pretty' as the first edition until later in development.
+\end_layout
+
+\begin_layout Standard
+The latest version will remain on 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://nerdygentleman.itch.io/18dracula"
+literal "false"
+
+\end_inset
+
+ whilst (and probably after) 18Dracula: Medieval Edition is in active developmen
+t.
+\end_layout
+
+\begin_layout Standard
+At the moment, I will especially note that the rules around werewolf movement
+ are particularly in flux.
+\end_layout
+
+\begin_layout Standard
+Please freely deliver any feedback - positive and negative - to Lachlan
+ Kingsford via
+\begin_inset CommandInset href
+LatexCommand href
+name " lachlan@nerdygentleman.com"
+target "lachlan@nerdygentleman.com"
+type "mailto:"
+literal "false"
+
+\end_inset
+
+.
+ Please note the version of the game that you were playing.
+\end_layout
+
+\begin_layout Standard
+If you wish to play online, a spreadsheet is available
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://docs.google.com/spreadsheets/d/11zcJjIWMCTnQcx7NUY72Xajo6_ar6Vo-ShtOKUMLrRY/edit?usp=sharing"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ The sheet links to a 
+\begin_inset CommandInset href
+LatexCommand href
+name "playingcards.io"
+literal "false"
+
+\end_inset
+
+ board that can be used to track board state.
+\end_layout
+
+\begin_layout Subsection
+Background
+\end_layout
+
+\begin_layout Standard
+Once upon a time, in the mythical land of Europe, there was the kingdom
+ of Trainsylvania.
+ It was of harsh mountains, black forests, horror tropes, inconsistent tone,
+ and poor writing.
+ It was also lawless, and of chaos.
+ 
+\end_layout
+
+\begin_layout Standard
+Once upon a time, there was a vampire whose name was ‘Dracula’.
+ He awoke after his millenia sleep, in his castle – which, due to ancient
+ magicks, had never been discovered.
+ He awoke to a land without order; a land which had forgotten vampires had
+ ever existed at all.
+ 
+\end_layout
+
+\begin_layout Standard
+Dracula bade his time and encouraged the seeds of evil to flourish in ancient
+ Trainsylvania.
+ The wolves, the necromancers, the ghouls: all returned.
+ And finally, he awoke his feared children, with a challenge, a promise,
+ and a threat: whichever of them could drain this cursed land of the most
+ blood, by time they could no longer hide themselves and would operate in
+ the open, would serve alongside Dracula for a thousand years.
+ The remainder would be served with potatoes.
+ 
+\end_layout
+
+\begin_layout Subsection
+Real world overview
+\end_layout
+
+\begin_layout Standard
+18Dracula is an 18XX game that, instead of being about trains, is about
+ playing blood sucking vampires.
+\end_layout
+
+\begin_layout Standard
+It’s loosely based on 1830.
+ Its most major departure from other 18XX games is that it uses a fixed
+ map with defined routes instead of tiles.
+ The primary reason for this is as an experiment to make an 18XX game that
+ is more accessible for people with low or no vision – and the jury is out
+ on whether it is effective.
+ 
+\end_layout
+
+\begin_layout Standard
+There is also a little more intention to be perhaps a little less balanced
+ and offer a few odder choices than most 18XX games.
+ There is a bit more variety in monsters than 1830 trains.
+\end_layout
+
+\begin_layout Standard
+Instead of train companies, you will have stock in fronts.
+ Instead of privates, you have associates.
+ Instead of trains, you have monsters.
+ Instead of dollars, you have pints (of blood, that is).
+\end_layout
+
+\begin_layout Standard
+If we can get on the same page – it’s a little bit silly.
+ And that’s quite intentional.
+ There are plenty of serious 18XX games that you can have hundreds of plays
+ of, but this is a slightly silly one to play once or twice a year on Halloween.
+ Hopefully you can have a little fun with it.
+ 
+\end_layout
+
+\begin_layout Standard
+The Medieval Edition is trying to give 18Dracula some more fangs.
+ The first edition got very slow around the middle, and it was unusual to
+ be in a position where you may go bankrupt.
+ The goals of this edition are to make the rules more clear and quick to
+ follow, add some more feeling of choice in your selection of routes, but
+ most importantly - to make the game go faster, in part by making it stay
+ more cutthroat throughout.
+\end_layout
+
+\begin_layout Subsection
+On these rules
+\end_layout
+
+\begin_layout Standard
+These rules are not yet 100% complete, and are still in flux - as it is
+ still a prototype.
+ There remain some 'todo's and missing information, that will be completed
+ before release.
+ Where applicable, any missing rules or ambiguity may be settled in the
+ same manner as per the 1830 rules.
+ 
+\end_layout
+
+\begin_layout Standard
+Francis Tresham, inventor of the 18XX genre, has been attributed to having
+ said in relation to a rule that did not work: ‘[c]hange it then.
+ My rules are only a framework, you can do with them what you wish.
+ As long as everyone plays to the same set of rules and HAS FUN, it doesn't
+ matter.’
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+https://www.boardgamegeek.com/blogpost/96126/rip-francis-tresham.
+\end_layout
+
+\end_inset
+
+ I stand by the same statement.
+ These are not set in stone – if you improve the game, great! It is OK to
+ play with those rules! 
+\end_layout
+
+\begin_layout Standard
+Please send me any questions or errors you find in the rules by email to
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name " lachlan@nerdygentleman.com"
+target "lachlan@nerdygentleman.com"
+type "mailto:"
+literal "false"
+
+\end_inset
+
+ so it can be improved in future revisions.
+\end_layout
+
+\begin_layout Subsection
+Etiquette
+\end_layout
+
+\begin_layout Standard
+Players should try to keep the game going fast.
+ During other players turns, you can usually prepare by figuring out what
+ routes you will build, stocks you will by, and monsters you might run.
+ Players are permitted to openly negotiate and make non-binding deals.
+ Players are not allowed to discuss plans in secret.
+\end_layout
+
+\begin_layout Section
+Setup
+\end_layout
+
+\begin_layout Subsection
+Components
+\end_layout
+
+\begin_layout Standard
+Beyond the cards, board, charters and tokens provided in the PNP, you will
+ need the following:
+\end_layout
+
+\begin_layout Itemize
+At least 16
+\begin_inset space ~
+\end_inset
+
+000 of a currency - paper money, or poker chips.
+ 
+\end_layout
+
+\begin_layout Itemize
+30 yellow cubes
+\end_layout
+
+\begin_layout Itemize
+10 green cubes
+\end_layout
+
+\begin_layout Itemize
+7 blue cubes
+\end_layout
+
+\begin_layout Itemize
+5 red cubes
+\end_layout
+
+\begin_layout Subsection
+Setup
+\end_layout
+
+\begin_layout Itemize
+Set up a blood bank bank of 12
+\begin_inset space ~
+\end_inset
+
+000
+\begin_inset space ~
+\end_inset
+
+pts.
+ Put aside additional currency for use in the last round.
+\end_layout
+
+\begin_layout Itemize
+Divide an additional 2
+\begin_inset space ~
+\end_inset
+
+400
+\begin_inset space ~
+\end_inset
+
+pts equally between the players.
+\end_layout
+
+\begin_layout Itemize
+Place a yellow cube in the first space of the phase tracker.
+\end_layout
+
+\begin_layout Itemize
+Place the remaining yellow cubes in their area on the board.
+\end_layout
+
+\begin_layout Itemize
+Place the green, blue, and red cubes in the route spaces on the board.
+\end_layout
+
+\begin_layout Itemize
+Place the relevant office tokens on each fronts charters.
+\end_layout
+
+\begin_layout Itemize
+Place the Lupin's Lipids and Blundell Transfusions offices in their starting
+ locations on the board.
+\end_layout
+
+\begin_layout Itemize
+Place the 
+\begin_inset Quotes eld
+\end_inset
+
+Dracula's Moving Castle
+\begin_inset Quotes erd
+\end_inset
+
+ token on the dotted circle near Dracuul.
+\end_layout
+
+\begin_layout Section
+Game Overview
+\end_layout
+
+\begin_layout Subsection
+Sequence of play
+\end_layout
+
+\begin_layout Standard
+The game consists of an initial auction, followed by a series of stock rounds
+ (
+\series bold
+SR
+\series default
+) and operating rounds (
+\series bold
+OR
+\series default
+).
+\end_layout
+
+\begin_layout Standard
+During the initial auction, the 'associates' will be auctioned between the
+ players.
+\end_layout
+
+\begin_layout Standard
+During the stock rounds, players purchase and sell shares in the fronts.
+\end_layout
+
+\begin_layout Standard
+During later operating rounds, between the stock round and the operating
+ round, an auction is held to move Dracula's Moving Castle.
+\end_layout
+
+\begin_layout Standard
+During operating rounds, players run their fronts, building routes, buying
+ monsters etc.
+ During later parts of the game, there will be multiple operating rounds
+ between stock rounds.
+\end_layout
+
+\begin_layout Subsection
+Game End
+\end_layout
+
+\begin_layout Standard
+The Game concludes when the blood bank has no more blood in it for the first
+ time.
+ The additional pts set aside at the start of the game are then added, so
+ the remainder of the set of Operating Rounds can continue.
+ At the start of the next Stock Round, the game is over.
+ If the bank is exhausted during a Stock Round, the game continues until
+ the end of the next set of Operating Rounds.
+\end_layout
+
+\begin_layout Standard
+The winner is the player whose value is the highest.
+ The value is their total blood holdings, plus the value of all their shares
+ multiplied by the current price for those shares.
+\end_layout
+
+\begin_layout Standard
+The game may also be concluded immediately if a player goes bankrupt.
+ After all, the time has come where Dracula will feast.
+ 
+\end_layout
+
+\begin_layout Section
+Stock Round
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+TODO: Fill this out.
+\end_layout
+
+\begin_layout Subsection
+Summary
+\end_layout
+
+\begin_layout Itemize
+Same as 1830
+\end_layout
+
+\begin_layout Itemize
+Sell, Buy, Sell
+\end_layout
+
+\begin_layout Itemize
+60% to Float
+\end_layout
+
+\begin_layout Itemize
+60% max ownership of share unless in orange zone
+\end_layout
+
+\begin_layout Subsection
+First stock round
+\end_layout
+
+\begin_layout Itemize
+Priority deal is player who purchased 'Innsmouth Library'
+\end_layout
+
+\begin_layout Itemize
+Shares can not be sold
+\end_layout
+
+\begin_layout Subsection
+Dracula's Moving Castle
+\end_layout
+
+\begin_layout Standard
+Following each stock round in Phase 3 and beyond, auction off the right
+ to move Dracula's Moving Castle.
+ The minimum bid is 1 pt.
+ The first bidder is the player with the priority marker following the stock
+ round.
+ Bidding continues clockwise.
+ Players may bid, or pass.
+ Once a player has passed, they may not reenter the auction.
+ 
+\end_layout
+
+\begin_layout Standard
+Once only one player remains, they pay their winning bid from their treasury
+ to the blood bank.
+ They must then move Dracula's Moving Castle to any completed route on the
+ board (including its original location).
+ It then blocks that route from being used for connections, or by monsters,
+ until it is moved.
+\end_layout
+
+\begin_layout Standard
+If no bids are made, then Dracula's Moving Castle does not move.
+\end_layout
+
+\begin_layout Subsection
+Certificate Limit
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2 Players
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+31
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3 Players
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+23
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4 Players
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5 Players
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6 Players
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Associates that are not closed count as a certificate
+\end_layout
+
+\begin_layout Itemize
+Yellow zone shares do not count as a certificate
+\end_layout
+
+\begin_layout Itemize
+20% President shares counts as one certificate
+\end_layout
+
+\begin_layout Itemize
+If ever above certificate limit, must sell sufficient certificates at first
+ opportunity during a stock round
+\end_layout
+
+\begin_layout Section
+Phase
+\end_layout
+
+\begin_layout Standard
+The game starts in Phase 1.
+ The game phase is progressed by purchasing monsters.
+ When a certain amount of a phase's monsters are purchased from the bank,
+ the next monster purchased will trigger a phase change.
+ Phase changes determine:
+\end_layout
+
+\begin_layout Itemize
+What monsters can be purchased
+\end_layout
+
+\begin_layout Itemize
+What monsters are eaten
+\end_layout
+
+\begin_layout Itemize
+How many monsters a front may own
+\end_layout
+
+\begin_layout Itemize
+How many ORs there are between stock rounds
+\end_layout
+
+\begin_layout Itemize
+What routes may be built
+\end_layout
+
+\begin_layout Standard
+These changes take place immediately.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/Phase.png
+	BoundingBox 0bp 0bp 510bp 1538bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "phasechart"
+
+\end_inset
+
+Phase chart on board
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The phase is tracked using the phase chart (Figure 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "phasechart"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ A cube is placed in the first space at the start of the game.
+ Each time a monster is purchased by a front (excluding Nurses), the cube
+ moves to the next space.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "PhaseChange"
+
+\end_inset
+
+When the monster goes past a line:
+\end_layout
+
+\begin_layout Itemize
+The new route cubes in that section are available
+\end_layout
+
+\begin_layout Itemize
+Any monsters that are listed as 'Eaten on X' where X is the new phase are
+ immediately removed from the game
+\end_layout
+
+\begin_layout Itemize
+Any companies that, after monsters have been eaten, have more monsters than
+ a new limit shown in 'Monsters/Front' must choose enough monsters to be
+ under the limit, and discard the remainder to the market without payment.
+\end_layout
+
+\begin_layout Standard
+There are no new phases after Phase 5, and the phase tracker no longer needs
+ to be operated.
+\end_layout
+
+\begin_layout Section
+Operating Rounds
+\end_layout
+
+\begin_layout Subsection
+Amount of operational rounds
+\end_layout
+
+\begin_layout Standard
+Following a stock round, there may be 1, 2 or 3 operational rounds depending
+ on the phase of the game immediately following the stock round.
+ If the phase changes during an operational round, it will not effect the
+ amount of operational rounds until after the following stock round.
+\end_layout
+
+\begin_layout Subsection
+Operating order
+\end_layout
+
+\begin_layout Standard
+Firstly, any still open associates (other than Lupin's Lipids and Blundell
+ Transfusions) pay their revenue to their owners (being, a front, or a player).
+\end_layout
+
+\begin_layout Standard
+Next, if still open, Lupin's Lipids runs.
+ It uses the same rules as running a regular front, except it has no additional
+ offices, can not buy monsters, and always pays half of its dividend to
+ its owner, and half to its treasury.
+\end_layout
+
+\begin_layout Standard
+Next, if still open, Blundell Transfusions runs.
+ It uses the same rules as running a regular front, except the only monster
+ it can buy is 'Nurses', and always pays half of its dividend to its owner,
+ and half to its treasury.
+\end_layout
+
+\begin_layout Standard
+Following this, all of the other fronts have their operating round.
+ They operate once during the operating round in order from the highest
+ stock value to the lowest.
+ If there are multiple fronts on the same space, then they operate with
+ the top front in the space going first, and then the next down and so on.
+ If the price is the same, but they are in different spaces, the right-most
+ company goes first.
+ 
+\end_layout
+
+\begin_layout Standard
+As such, when moving stock tokens on the stock market, always move stock
+ tokens at the bottom, underneath any tokens in the same space.
+\end_layout
+
+\begin_layout Subsection
+Operating Front Sequence
+\end_layout
+
+\begin_layout Standard
+A front's OR consists of the following actions, in this order:
+\end_layout
+
+\begin_layout Enumerate
+Optionally build routes
+\end_layout
+
+\begin_layout Enumerate
+Optionally place an office
+\end_layout
+
+\begin_layout Enumerate
+Monsters rampage
+\end_layout
+
+\begin_layout Enumerate
+Pay dividends
+\end_layout
+
+\begin_layout Enumerate
+Hire monsters
+\end_layout
+
+\begin_layout Standard
+A front may also, after phase 2, purchase an associate at any time during
+ their turn.
+ Associates owned by a front may have powers that can be activated at any
+ time during a turn, or at a specific time.
+\end_layout
+
+\begin_layout Subsection
+Build Routes 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Build-Routes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A front may build a route by placing a cube in a connected location.
+ A company may place 2 yellow cubes, or (once available), 1 green, blue
+ or red cube during its turn.
+ If placing yellow cubes, those 2 cubes do not need to be connected to each
+ other.
+\end_layout
+
+\begin_layout Subsubsection*
+Colour
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Connections
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Colour
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Available From
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1-2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yellow
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Phase 1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Green
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Phase 2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Blue
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Phase 3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Red
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Phase 4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Colour upgrade order
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Colour-upgrade-order"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A route connects two locations.
+ To determine the colour required, consider the amount of routes each of
+ the two locations will have following building the route.
+ The higher of the two numbers shows what colour is required on Table 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Colour-upgrade-order"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+Example
+\end_layout
+
+\begin_layout Quote
+We want to connect Blackford to Keifercourt.
+ Blackford has a connection to Hollick.
+ Keifercourt has a connection to Morefrite, and a connection to Badlands.
+ As it is the 3rd connection to Keifercourt, (which is higher than the 2nd
+ connection to Blackford), it must be a Green cube.
+\end_layout
+
+\begin_layout Standard
+If a cube colour on the higher side has been 'skipped' (by virtue of another
+ earlier route being higher from the other side, or by a special red space),
+ then use the skipped colour.
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+Example
+\end_layout
+
+\begin_layout Quote
+Sadie is connecting to Balath.
+ Sadie has a green cube connecting to Blackford, and a yellow cube connecting
+ to Overlook.
+ As one yellow cube was 'skipped', the connection to Sadie must be yellow.
+\end_layout
+
+\begin_layout Standard
+If a route cube space is a specific colour, then that colour must be used,
+ regardless of how many connections it would otherwise be.
+\end_layout
+
+\begin_layout Standard
+During the first phase, only Yellow Cubes are available.
+ As shown on the board, a limited number of Green, Blue and Red cubes become
+ available when there is a new phase.
+ A front can not build a route if there are none of the correct colour cube
+ to place.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/Costly Route.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Example of route that costs 100 pts, and must be a red cube.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Example-of-route"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Level of city
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/Overlook.png
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Overlook"
+
+\end_inset
+
+Overlook, showing upgrade revenue
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A city will be the level if its current highest colour cube connecting to
+ it.
+ Cities may have increasing revenue depending on the current level, as shown
+ in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Overlook"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ If revenue for the current colour level isn't shown, then use the previous
+ highest level.
+ More office spaces may also be available depending on the current level.
+ Spaces with a coloured band (like the Green and Red bands on the 2nd and
+ 3rd office spaces of overlook) become available when on that level or above.
+ 
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+Example:
+\end_layout
+
+\begin_layout Quote
+Overlook (as shown in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Overlook"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) has a green cube.
+ We are placing a blue cube adjacent to it.
+ The green office space was already available, but the red one does not
+ become available yet.
+ Overlook now pays 50 pts revenue when visited by a monster.
+\end_layout
+
+\begin_layout Subsubsection
+Cost of building
+\end_layout
+
+\begin_layout Standard
+Most connections are built for free.
+ If the cube has a number in it (as shown in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Example-of-route"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) then that cost must be paid when building.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Preexisting Connections
+\end_layout
+
+\begin_layout Standard
+Some spaces on the board have connections when the game starts.
+ Those are marked with a yellow circle, and count as one of the yellow cubes
+ in the city.
+\end_layout
+
+\begin_layout Subsubsection
+Connection
+\end_layout
+
+\begin_layout Standard
+A route must be connected to an office belonging to the front.
+ A route is connected if you can trace it by completed routes, and unblocked
+ cities, to an office.
+ A city is blocked if all of its available office spaces are occupied by
+ offices.
+ A reserved office space (for a home station) does not block a route.
+ An office space that is not available at the cities current upgrade blocks
+ the route, even if unoccupied.
+\end_layout
+
+\begin_layout Subsection
+Place an office
+\end_layout
+
+\begin_layout Standard
+A front may place an office in an available space that it is connected to
+ if it has an office available on its charter.
+ Pay the amount shown on the charter.
+ 
+\end_layout
+
+\begin_layout Standard
+Connection and available office spaces are as with building a route (
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Build-Routes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) .
+ 
+\end_layout
+
+\begin_layout Standard
+Fronts must always build the next cheapest office available.
+ 
+\end_layout
+
+\begin_layout Subsection
+Monsters Rampage
+\end_layout
+
+\begin_layout Standard
+Each monster that a front owns may rampage.
+ In general:
+\end_layout
+
+\begin_layout Itemize
+Monsters each may visit or go through each city, town, or off-board location
+ no more once.
+\end_layout
+
+\begin_layout Itemize
+Monsters may not reuse a route that they, or another monster, has used.
+\end_layout
+
+\begin_layout Itemize
+Monsters may not pass through blocked cities.
+ A city is not blocked by the front having an office there.
+ A monster may start or end their route at a blocked city.
+\end_layout
+
+\begin_layout Itemize
+Each monsters route must include, start or end at one of the front's offices.
+\end_layout
+
+\begin_layout Standard
+Monsters collect the revenue shown in each city and off-board location that
+ they visit.
+ Monsters collect the amount shown on the card (such as 
+\begin_inset Graphics
+	filename Images/Dit revenue.png
+
+\end_inset
+
+) for each town that they visit.
+\end_layout
+
+\begin_layout Standard
+Monsters movements and abilities may differ considerably depending on the
+ monster.
+ The details for each monster are shown on their card.
+\end_layout
+
+\begin_layout Subsubsection
+Movement
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/Example Town.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Example Town
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Movement for most monsters is in the form of a number, times the places
+ that it stops at, and potentially adding infinite towns.
+\end_layout
+
+\begin_layout Standard
+Examples of movement and their meanings are shown in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Movement-examples"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="5cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Symbol
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Meaning
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/City only.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Visits a city with an office only.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/Claw movement.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Route may cover up to three cities, and infinite towns.
+ Route may not visit off-board locations.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/Inf movement.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Route may cover infinite towns or ports, and infinite towns.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/No dit movement.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Route may cover a total of up to five cities or off-board locations, and
+ infinite towns.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/Stop at dit.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Route may a total of up to two towns, cities, or off-board locations.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Movement examples
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Movement-examples"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Off-board locations
+\end_layout
+
+\begin_layout Standard
+A monster whose movement includes a 
+\begin_inset Graphics
+	filename Images/Export.png
+
+\end_inset
+
+ symbol may start and/or end their route on off-board locations.
+ An example off-board location is shown in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Example-offboard-location"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Off-board locations pay per what the current phase is rather than an upgrade.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/Off board.png
+	width 3cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Example offboard location
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Example-offboard-location"
+
+\end_inset
+
+.
+ Helifax will pay 30 pts in Phase 1 (Yellow), 50 pts in Phase 2 (Green)
+ or Phase 3 (Blue), and 100 pts in Phase 4 (Red) or Phase 5 (Gray).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Lingers
+\end_layout
+
+\begin_layout Standard
+Monsters with a 'linger' mark (
+\begin_inset Graphics
+	filename Images/Repeat.png
+	height 100baselineskip%
+
+\end_inset
+
+) may stop at the number shown amount of cities exactly twice.
+ This counts as an extra city visited for the movement of the monster.
+ A monster that can do this more than once can not visit the same city more
+ than twice.
+ 
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+Examples:
+\end_layout
+
+\begin_layout Quote
+A monster has a marking of 
+\begin_inset Formula $1\times$
+\end_inset
+
+
+\begin_inset Graphics
+	filename Images/Repeat.png
+	height 100baselineskip%
+
+\end_inset
+
+ and movement of 
+\begin_inset Graphics
+	filename Images/No dit movement.png
+
+\end_inset
+
+.
+ Instead of stopping at 5 different cities, it may stop at 4 different cities,
+ but stop at the highest paying one twice.
+\end_layout
+
+\begin_layout Subsubsection
+Lupin's Lipids and Blundells Transfusions after purchase
+\end_layout
+
+\begin_layout Standard
+The Associate monsters belonging to Lupin's Lipids and Blundells Transfusions
+ may not run twice during an OR.
+ On the OR that they are purchased by a front, they will not run in that
+ front's rampage.
+ They will run in subsequent ORs as normal.
+\end_layout
+
+\begin_layout Subsection
+Pay Dividends
+\end_layout
+
+\begin_layout Standard
+After rampaging, the front may either keep the blood from the rampage for
+ itself (
+\series bold
+retain dividends
+\series default
+) or distribute the blood to shareholders (
+\series bold
+pay dividends
+\series default
+).
+ If the front retains dividends, or can not pay a dividend due to having
+ no monsters:
+\end_layout
+
+\begin_layout Itemize
+Add any blood from the bank that the front earned during the rampage to
+ the front's treasury.
+ 
+\end_layout
+
+\begin_layout Itemize
+Move the front's stock token one space to the left.
+ If it can move no further left, then it moves no further.
+\end_layout
+
+\begin_layout Standard
+If the front pays dividends:
+\end_layout
+
+\begin_layout Itemize
+Each holder of a share of the front receives 10% of the blood from the rampage
+ for each share.
+\end_layout
+
+\begin_layout Itemize
+If the front has any shares in the market, the front receives 10% of the
+ blood from the rampage to its treasury for each share in the market.
+\end_layout
+
+\begin_layout Itemize
+Move the front's stock token one space to the right.
+ If if can move no further right, then move it one space up.
+ If it is in the rightmost, topmost position, it does not move.
+\end_layout
+
+\begin_layout Subsection
+Buy Monsters
+\end_layout
+
+\begin_layout Standard
+If permitted or required, a front may purchase any monster that is currently
+ available from the bank, market, or any monster from another front with
+ permission of its president.
+\end_layout
+
+\begin_layout Subsubsection
+Purchase from bank
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/Phase 2 Monster.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Example of a Phase 2 monster card
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Any card that is in the bank and currently available may be purchased, by
+ paying the amount shown on the card from the front's treasury to the blood
+ bank.
+ Available monsters are those in the current phase or, once the phase tracker
+ is in the last space of the phase, monsters from the following phase.
+ The phase is shown on the card.
+\end_layout
+
+\begin_layout Standard
+Once a monster of a new phase is purchased, a phase change occurs as per
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "PhaseChange"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Whenever a monster is purchased from the bank, move the phase tracker to
+ the next space.
+\end_layout
+
+\begin_layout Subsubsection
+Purchase from the market
+\end_layout
+
+\begin_layout Standard
+Any monsters surrendered to the market, that have not yet been eaten, may
+ be purchased at their face value, paid to the blood bank.
+\end_layout
+
+\begin_layout Subsubsection
+Purchase from another front
+\end_layout
+
+\begin_layout Standard
+A monster may be purchased from another front, with consent from both presidents
+, at any price greater than 1 pt.
+\end_layout
+
+\begin_layout Subsubsection
+Claws and Fangs
+\end_layout
+
+\begin_layout Standard
+A front that owns a monster with a a 'claw' symbol (
+\begin_inset Graphics
+	filename Images/Claw.png
+	height 100baselineskip%
+
+\end_inset
+
+), may not purchase a monster with a 'fang' (
+\begin_inset Graphics
+	filename Images/Fang.png
+	height 100baselineskip%
+
+\end_inset
+
+) symbol, and vice-versa.
+ This is the case even if that purchase would ensure that other monster
+ was eaten.
+\end_layout
+
+\begin_layout Subsubsection
+Monster limit
+\end_layout
+
+\begin_layout Standard
+Monsters can not be purchased if it means that the front will have more
+ monsters than the current limit for the current phase.
+ A front can not purchase a monster when it is at the limit even if it means
+ that, by monsters being eaten, it would not be past the limit after purchasing
+ it.
+\end_layout
+
+\begin_layout Subsubsection
+Requirement to buy a monster
+\end_layout
+
+\begin_layout Standard
+A front that has any legal route must own a monster by the end of the Buy
+ Monsters phase.
+ If it does not have a monster, and does not have enough blood to purchase
+ a monster from the bank, the president must contribute blood until the
+ front has sufficient blood to purchase a monster.
+\end_layout
+
+\begin_layout Subsubsection
+Presidential contributions
+\end_layout
+
+\begin_layout Standard
+Presidential contributions are only permitted if the company is forced to
+ purchase a monster, and does not have enough blood to purchase a monster
+ from the bank.
+ Any available, legal monster from the bank may be purchased from the bank
+ with a presidential contribution; it does not need to be the cheapest available
+ monster in the bank.
+\end_layout
+
+\begin_layout Standard
+A president must first contribute from their own treasury.
+ If their treasury has insufficient blood, they must sell shares (using
+ the ordinary rules, including limits in the market, and stock movement)
+ until they have sufficient blood to contribute.
+ Once the player has sufficient blood to contribute to the front to purchase
+ the monster, it may not sell any more shares.
+ The president decides which shares to sell, and in which order.
+\end_layout
+
+\begin_layout Standard
+The sales may not change the presidency of the front which the president
+ is contributing to.
+ The sales may change the presidency of other fronts.
+ 
+\end_layout
+
+\begin_layout Paragraph*
+Bankruptcy
+\end_layout
+
+\begin_layout Standard
+If a player can not sell sufficient shares to allow a monster to be purchased,
+ the player is bankrupted, ending the game.
+ The player must sell as many shares as they are able before declaring bankruptc
+y.
+\end_layout
+
+\begin_layout Paragraph*
+Technical bankruptcy
+\end_layout
+
+\begin_layout Standard
+If:
+\end_layout
+
+\begin_layout Itemize
+a player has presidency of more than one front;
+\end_layout
+
+\begin_layout Itemize
+a players fronts have exactly one permanent monster between them;
+\end_layout
+
+\begin_layout Itemize
+the sum of the players fronts treasuries and the player's treasury is less
+ than the cheapest monster available;
+\end_layout
+
+\begin_layout Itemize
+the player would otherwise be bankrupt; and
+\end_layout
+
+\begin_layout Itemize
+the front has either 0 pts of blood or no other front is willing to sell
+ a permanent monster for the full treasury of the front;
+\end_layout
+
+\begin_layout Standard
+then they must declare a technical bankruptcy, ending the game.
+ The player then treats it as a bankruptcy.
+\end_layout
+
+\begin_layout Section
+Associates
+\end_layout
+
+\begin_layout Subsection
+Associates
+\end_layout
+
+\begin_layout Standard
+Associates serve the purpose of private companies in 1830.
+ They are people and organisations under the thumb of Dracula's children
+ who can provide some special service, pay protection money to the players
+ (in the form of anonymous blood donations, ‘honestly’ retrieved) and be
+ sold to the fronts to extract some of the blood out of them with a legitimate
+ air.
+\end_layout
+
+\begin_layout Standard
+All associates are listed in the reference section of this manual.
+ 
+\end_layout
+
+\begin_layout Subsection
+Associate auction
+\end_layout
+
+\begin_layout Standard
+The associate auction is at the start of the game.
+ It is an 1830-style 'waterfall' auction.
+\end_layout
+
+\begin_layout Standard
+The player who makes the first bid is the one who has most recently had
+ blood taken.
+ Failing that, the player who most recently watched a horror film.
+\end_layout
+
+\begin_layout Standard
+Starting with the first player, going clockwise, the current player may:
+\end_layout
+
+\begin_layout Itemize
+Pass
+\end_layout
+
+\begin_layout Itemize
+Purchase the lowest priced unsold associate at face value 
+\end_layout
+
+\begin_layout Itemize
+Put a multiple-of-five bid on one of the associates that is higher than
+ its purchase price, and any current bids.
+ Any bids (even if not winning) on an unsold associate are put aside and
+ can not be used until that associate is sold by purchase or auction.
+\end_layout
+
+\begin_layout Standard
+A pass does not stop the player from continuing to take part in the auction.
+\end_layout
+
+\begin_layout Standard
+When the lowest price associate is purchased or auctioned, then:
+\end_layout
+
+\begin_layout Itemize
+If there's no bids on the next associate, continue the associate auction
+ with the next player after the one who purchased the last share.
+\end_layout
+
+\begin_layout Itemize
+If there’s only one bidder on the next associate, it is purchased by that
+ bidder
+\end_layout
+
+\begin_layout Itemize
+If there’s multiple bidders on the next associate, it is auctioned off.
+ Starting with player to the left of current highest bid, bidders on that
+ associate who are not winning the auction may make a multiple-of-five bid
+ higher than the current price.
+ A player who passes during an auction for a specific associate may not
+ reenter bid again for that associate.
+ Only people who bid on the associate before it was auctioned off participate
+ in that auction.
+\end_layout
+
+\begin_layout Standard
+After this purchase or auction, if the new lowest-priced unsold associate
+ has one or more bids on it, repeat this process again until either all
+ companies are sold or the new lowest-priced unsold associate has no bids.
+\end_layout
+
+\begin_layout Standard
+When an associate is bought by purchase or auction, the player pays its
+ purchase price, or their bid, to the bank.
+ If the associate has other bids, those players get that money back; it
+ is no longer reserved.
+\end_layout
+
+\begin_layout Standard
+If all players pass without everything being sold, then the price of the
+ current associate is reduced by 5 pts, the round continues, and each associate
+ that has been purchased pays their revenue to its owner.
+ Those associates that run as fronts have an operating round in the order
+ of Lupin’s Lipids followed by Blundell Transfusions.
+ In the unlikely event that an associate is reduced to 0 pts, a player must
+ not pass and must purchase it for free.
+\end_layout
+
+\begin_layout Subsection
+List of associates
+\end_layout
+
+\begin_layout Subsubsection
+Innsmouth Library
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Price
+\series default
+: 30 pts.
+ 
+\series bold
+Revenue: 
+\series default
+5 pts.
+\end_layout
+
+\begin_layout Standard
+Player who wins Innsmouth Library is the first player in the first Stock
+ Round.
+\end_layout
+
+\begin_layout Standard
+Closed in Phase 4.
+\end_layout
+
+\begin_layout Subsubsection
+Jekyl & Hyde
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Price: 
+\series default
+50 pts.
+ 
+\series bold
+Revenue: 
+\series default
+10 pts.
+\end_layout
+
+\begin_layout Standard
+Once owned by a front, activate during turn to remove any yellow cube from
+ the board, or add a yellow cube anywhere on the board where a yellow cube
+ is allowed.
+ The cube does not need to be connected
+\end_layout
+
+\begin_layout Standard
+Closed in Phase 4 or on activation.
+\end_layout
+
+\begin_layout Subsubsection
+Church of the endless void
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Price: 
+\series default
+60 pts.
+ 
+\series bold
+Revenue: 
+\series default
+20 pts.
+\end_layout
+
+\begin_layout Standard
+Once owned by a front, activate during turn to reserve the next office space
+ that will open and is connected to the front.
+ Pay for the token, and place it upside down.
+ It is flipped, and becomes an office, when the office space is opened by
+ the usual building of a route.
+\end_layout
+
+\begin_layout Standard
+Closes at start of Phase 4 or on activation.
+\end_layout
+
+\begin_layout Subsubsection
+Lupin's Lipids
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Price: 
+\series default
+80 pts
+\series bold
+.
+\end_layout
+
+\begin_layout Standard
+Starts with Steelclaw and a token in Balath.
+ Pays half collection to owner, half to store.
+ On purchase by front, its store, and Steelclaw are merged into the purchasing
+ front.
+ Its token can be used by the purchasing front until removed.
+\end_layout
+
+\begin_layout Standard
+Token removed at Phase 4.
+ Closes in Phase 4.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Blundell Transfusions
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Price: 
+\series default
+100pts.
+\end_layout
+
+\begin_layout Standard
+Starts with 1 Nurse, 1 Token in Blackford.
+ Starts with 30 pts in store.
+ Pays half collection to owner, half to store.
+ On purchase by front, its store, tokens and nurses are merged into the
+ purchasing front.
+ Its tokens can be used by, or placed by the purchasing front until removed.
+ The purchasing front may not purchase additional nurses.
+\end_layout
+
+\begin_layout Standard
+Can buy an additional token for 40 pts Tokens removed at Phase 4.
+ Closes in Phase 4.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Molemen Inc.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Price: 
+\series default
+115pts.
+ 
+\series bold
+Revenue: 
+\series default
+20 pts
+\end_layout
+
+\begin_layout Standard
+Once purchased by a front, actvate to place an office in any available office
+ space, paying its usual cost.
+ The office does not need to be connected.
+\end_layout
+
+\begin_layout Standard
+Closed in Phase 4 or on activation.
+\end_layout
+
+\begin_layout Subsubsection
+Flying Dutchman
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Price: 
+\series default
+180 pts.
+ 
+\series bold
+Revenue:
+\series default
+ 0 pts.
+\end_layout
+
+\begin_layout Standard
+Once purchased by a front, the Flying Dutchman doubles the revenue for one
+ of Dead Man's Bay, Helifax, Endsport or Southport, for one monster, once
+ per rampage.
+ A different route can be picked each rampage.
+ The Flying Dutchman never closes.
+\end_layout
+
+\begin_layout Section
+Rules summary for experienced 18xx players
+\end_layout
+
+\begin_layout Paragraph*
+Terminology
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Associate: 
+\series default
+Private Company
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Blood:
+\series default
+ Money
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Eaten
+\series default
+: Rust
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Front
+\series default
+: Public Company
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Monster: 
+\series default
+Train
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Office
+\series default
+: Station
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Rampage:
+\series default
+ Run trains
+\end_layout
+
+\begin_layout Paragraph*
+
+\series bold
+Very special rules
+\end_layout
+
+\begin_layout Itemize
+Each monster purchase moves the phase cube towards the next phase.
+ When at the last cube in the phase, the next monster purchase must be from
+ the next phase, triggering same events as next rank of monster in 1830.
+\end_layout
+
+\begin_layout Itemize
+Cube route building is notably different.
+ See 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Build-Routes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ for details.
+\end_layout
+
+\begin_layout Itemize
+Dracula's Moving Castle starts blocking routes near Dracuul.
+ After phase 3, there is an auction after every SR to move Dracula's Moving
+ Castle.
+ Starts with new priority deal player, and goes around, without being able
+ to bid after passing.
+ Winner can place the castle to block any completed route.
+ Blood is paid to the blood bank.
+ If there are no bids, it does not move.
+\end_layout
+
+\begin_layout Paragraph*
+Capitalisation
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+How many shares need to be purchased to float? 
+\series default
+60%
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+How many shares is the president's share worth?
+\series default
+ 20%
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+When a front floats, how much capital does it get? 
+\series default
+10x the par value
+\end_layout
+
+\begin_layout Paragraph*
+General
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Can the game end in the middle of a set of operating rounds? 
+\series default
+No.
+ Continue until the end of the set.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Can the game end in an SR? 
+\series default
+No.
+ Continue until the end of the next set of ORs.
+\end_layout
+
+\begin_layout Paragraph*
+
+\series bold
+Shares
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+What is the order of a stock turn? 
+\series default
+Sell, Buy, Sell
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Can players sell shares in a front that has not yet operated?
+\series default
+ Yes, except during the first stock round
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Do associates owned by players count towards certificate limit? 
+\series default
+Yes
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Can more than 50% of the shares be in the market at any time?
+\series default
+ No
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Can the president's share be sold (without another player to take it over)?
+ 
+\series default
+No
+\end_layout
+
+\begin_layout Paragraph*
+
+\series bold
+Fronts
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+When is a front's home office placed? 
+\series default
+When it is floated
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Do shares in an IPO pay dividends to front? 
+\series default
+No
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Do shares in market pay dividends to front? 
+\series default
+Yes
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Can a front use an associates monster the same turn it was purchased? 
+\series default
+No
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Can a front purchase more than one monster in an OR? 
+\series default
+Yes
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Must fronts force-purchase if they have no monsters at the end of an OR?
+ 
+\series default
+Yes
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Must fronts purchase the cheapest available monster if the president contributes
+ blood? 
+\series default
+No
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+May a front purchase a monster from another front? 
+\series default
+Yes, for 1 pt or more.
+\end_layout
+
+\begin_layout Paragraph*
+President contributions
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Can stock sales to make the shortfall in a presidential contribution cause
+ a change of ownership of a front? 
+\series default
+It can change ownership of any front except the one that is having shares
+ sold for it.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+When the president contributes, what monsters may it purchase?
+\series default
+ Any available, legal monster from the bank.
+\end_layout
+
+\begin_layout Paragraph*
+Monsters
+\end_layout
+
+\begin_layout Itemize
+Can not purchase a 'claw' (
+\begin_inset Graphics
+	filename Images/Claw.png
+	height 100baselineskip%
+
+\end_inset
+
+) if you have a 'fang' (
+\begin_inset Graphics
+	filename Images/Fang.png
+	height 100baselineskip%
+
+\end_inset
+
+), and vice versa.
+\end_layout
+
+\begin_layout Itemize
+Only monsters with a 
+\begin_inset Graphics
+	filename Images/Export.png
+
+\end_inset
+
+ symbol can visit off board locations
+\end_layout
+
+\begin_layout Itemize
+Monsters with a 'linger' mark (
+\begin_inset Graphics
+	filename Images/Repeat.png
+	height 100baselineskip%
+
+\end_inset
+
+) may stop at the number shown amount of cities exactly twice.
+ This counts as an extra city visited for the movement of the monster.
+ A monster that can do this more than once can not visit the same city more
+ than twice.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Can multiple monsters stop at the same city? 
+\series default
+Yes
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Can multiple monsters use the same routes? 
+\series default
+No
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Do monsters stop at dits? 
+\series default
+Sometimes.
+ Some monsters (marked with 
+\begin_inset Graphics
+	filename Images/Multi dit.png
+	height 100baselineskip%
+
+\end_inset
+
+) can stop at an infinite number of dits.
+ Monster cards mark the amount of blood that they get for each dit that
+ they pass through
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+Associates
+\end_layout
+
+\begin_layout Itemize
+Lupin's Lipids and Blundell Transfusions are effectively minor companies.
+ They operate, and always pay half their dividend to their owner until purchased
+ by a front.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+How much may a front purchase an associate for?
+\series default
+ Between 1 pt and 
+\begin_inset Formula $2\times$
+\end_inset
+
+ its face value.
+\end_layout
+
+\begin_layout Section
+Authors Notes
+\end_layout
+
+\begin_layout Subsection
+Acknowledgements
+\end_layout
+
+\begin_layout Standard
+Thomas Morris provided much of the fiction and flavour text.
+ He is on Twitter on 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://twitter.com/TekMorris"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Thank you to Jayde, my wife for her support and patience with this slightly
+ odd endeavour.
+ 
+\end_layout
+
+\begin_layout Standard
+Thank you to the 18XX community - and specifically my early online groups
+ - who have been so welcoming to me over the last few years, patient with
+ design, and patiently teaching me to play.
+\end_layout
+
+\begin_layout Standard
+My most sincere thank you to anybody who persevered through the original
+ edition of 18Dracula.
+ I know that it was very flawed, but I was so grateful to see anybody spend
+ time with it and experience it.
+ This attempt to make the game 'good' wouldn't have happened were it not
+ for seeing people trying it before.
+ Thank you so very much.
+\end_layout
+
+\begin_layout Subsection
+Noun Project
+\end_layout
+
+\begin_layout Standard
+The following artwork is used: 
+\end_layout
+
+\begin_layout Itemize
+Butcher by Graphic Tigers from the Noun Project 
+\end_layout
+
+\begin_layout Itemize
+theatre by Sophia Bai from the Noun Project 
+\end_layout
+
+\begin_layout Itemize
+Carriage by Elijah Meeks, US from the Noun Project 
+\end_layout
+
+\begin_layout Subsection
+License
+\end_layout
+
+\begin_layout Standard
+Unlike the rest of this game, this rulebook specifically is licensed under
+ the 
+\begin_inset CommandInset href
+LatexCommand href
+name "Creative Commons by Attribution License (CC BY 4.0)"
+target "https://creativecommons.org/licenses/by/4.0/"
+literal "false"
+
+\end_inset
+
+.
+ This means that you may modify it and use it (with attribution), even for
+ commercial use.
+ My intention is to help any other designers of 18xx games with a rulebook
+ that can be modified to their needs.
+ If it is helpful to you, and you wish to, I would gladly accept donations
+ by PayPal to https://www.paypal.com/paypalme/lkingsford, or by arranging
+ a copy of your game by email to 
+\begin_inset CommandInset href
+LatexCommand href
+name "lachlan@nerdygentleman.com"
+target "lachlan@nerdygentleman.com"
+type "mailto:"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

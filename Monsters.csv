@@ -1,0 +1,70 @@
+monster,name,flavor,phase,phase[style:fill],phaseColor[style:fill],cost,eatenText,eatenColor[style:fill],specialText,fang?,claw?,ditgp?,dit,lingersgp?,lingers,mvt-?-value,mvtgp-?
+1,"""Nurse""","The ""Doctor"" will see you now.",A,#dbdbe3,#dbdbe3,10 pts,Eaten by 4,#da8787,As many nurses can operate in a city as there are open routes.,n,n,n,N/A,n,0,1,cod
+1,"""Nurse""","The ""Doctor"" will see you now.",A,#dbdbe3,#dbdbe3,10 pts,Eaten by 4,#da8787,As many nurses can operate in a city as there are open routes.,n,n,n,N/A,n,0,1,cod
+1,"""Nurse""","The ""Doctor"" will see you now.",A,#dbdbe3,#dbdbe3,10 pts,Eaten by 4,#da8787,As many nurses can operate in a city as there are open routes.,n,n,n,N/A,n,0,1,cod
+1,"""Nurse""","The ""Doctor"" will see you now.",A,#dbdbe3,#dbdbe3,10 pts,Eaten by 4,#da8787,As many nurses can operate in a city as there are open routes.,n,n,n,N/A,n,0,1,cod
+1,Steelclaw,"They call him Steelclaw, but they spell it incorrectly. Stealclaw got his name because he was declawed as a pup.",A,#dbdbe3,#dbdbe3,,Eaten by 4,#da8787,     ,n,y,y,20 pts,n,0,2,cd
+1,Skeleton,*clink*,1,#ffe680,#ffe680,80 pts,Eaten by 3,#aaccff,     ,n,n,y,10 pts,n,0,2,cxd
+1,Skeleton,*click*,1,#ffe680,#ffe680,80 pts,Eaten by 3,#aaccff,     ,n,n,y,10 pts,n,0,2,cxd
+1,Skeleton,*clack*,1,#ffe680,#ffe680,80 pts,Eaten by 3,#aaccff,     ,n,n,y,10 pts,n,0,2,cxd
+1,Skeleton,*xylophone noises*,1,#ffe680,#ffe680,80 pts,Eaten by 3,#aaccff,     ,n,n,y,10 pts,n,0,2,cxd
+1,Zombie,Blerg!,1,#ffe680,#ffe680,60 pts,Eaten by 2,#c6e9af,     ,n,n,y,10 pts,n,0,2,cd
+1,Zombie,Blarrr!,1,#ffe680,#ffe680,60 pts,Eaten by 2,#c6e9af,     ,n,n,y,10 pts,n,0,2,cd
+1,Zombie,Urrrrrh!,1,#ffe680,#ffe680,60 pts,Eaten by 2,#c6e9af,     ,n,n,y,10 pts,n,0,2,cd
+1,Zombie,"Hi, my name's Hank.",1,#ffe680,#ffe680,60 pts,Eaten by 2,#c6e9af,     ,n,n,y,10 pts,n,0,2,cd
+1,Swearwolf,"I am a werewolf, I swear it on me mam's grave. ",1,#ffe680,#ffe680,60 pts,Eaten by 3,#aaccff,Eaten and removed if Fang hired by hiring front. Only one Swearwolf can operate in a city.,n,n,n,N/A,n,0,1,cod
+1,Swearwolf,"I am a werewolf, I swear it on me mam's grave.",1,#ffe680,#ffe680,60 pts,Eaten by 3,#aaccff,Eaten and removed if Fang hired by hiring front. Only one Swearwolf can operate in a city.,n,n,n,N/A,n,0,1,cod
+1,Suckling,,2,#c6e9af,#c6e9af,180 pts,Eaten by 4,#da8787,     ,y,n,y,0 pts,n,0,3,cxd
+1,Suckling,,2,#c6e9af,#c6e9af,180 pts,Eaten by 4,#da8787,     ,y,n,y,0 pts,n,0,3,cxd
+1,Suckling,,2,#c6e9af,#c6e9af,180 pts,Eaten by 4,#da8787,     ,y,n,y,0 pts,n,0,3,cxd
+1,"""Hatchet"" Murray","The nickname Hatchet Murray is a misnomer, technically he uses an axe.",2,#c6e9af,#c6e9af,240 pts,Eaten by 4,#da8787,     ,n,n,y,10 pts,n,0,5,cxd
+1,Constable,,2,#c6e9af,#c6e9af,200 pts,Eaten by 4,#da8787,     ,n,n,y,10 pts,n,0,3,cxd
+1,Constable,,2,#c6e9af,#c6e9af,200 pts,Eaten by 4,#da8787,     ,n,n,y,10 pts,n,0,3,cxd
+1,Constable,,2,#c6e9af,#c6e9af,200 pts,Eaten by 4,#da8787,     ,n,n,y,10 pts,n,0,3,cxd
+1,Ghoul,"I am not a zombie, I don't associate with that riff-raff!",2,#c6e9af,#c6e9af,140 pts,Eaten by 3,#aaccff,     ,n,n,y,10 pts,n,0,3,cd
+1,Haunted,,3,#aaccff,#aaccff,450 pts,Eaten by 5,#e6e6e6,Can move through token blocked cities,n,n,y,10 pts,n,0,3,cd
+1,Soldier,"Jenkins, five rounds rapid!",3,#aaccff,#aaccff,450 pts,Eaten by 5,#e6e6e6,     ,n,n,y,10 pts,n,0,4,cxd
+1,Soldier,"They call him the Brigadier, nobody knows what exactly it means, but he keeps saying it's a rank.",3,#aaccff,#aaccff,450 pts,Eaten by 5,#e6e6e6,     ,n,n,y,10 pts,n,0,4,cxd
+1,Grayback,,3,#aaccff,#aaccff,430 pts,Eaten by 5,#e6e6e6,     ,n,y,y,20 pts,n,0,4,cd
+1,Grayback,,3,#aaccff,#aaccff,430 pts,Eaten by 5,#e6e6e6,     ,n,y,y,20 pts,n,0,4,cd
+1,Count,,3,#aaccff,#aaccff,450 pts,Eaten by 5,#e6e6e6,     ,y,n,y,0 pts,y,1,4,cxd
+1,Count,,3,#aaccff,#aaccff,450 pts,Eaten by 5,#e6e6e6,     ,y,n,y,0 pts,y,1,4,cxd
+1,Captain Harker,,3,#aaccff,#aaccff,550 pts,Eaten by 5,#e6e6e6,     ,n,n,y,10 pts,n,0,5,cxd
+1,Renfield,,3,#aaccff,#aaccff,450 pts,Eaten by 5,#e6e6e6,Can be traded in for Count Dracula (when available) for 200,n,n,y,0 pts,n,0,2,cxd
+1,Werewolf,"No, I don't need a flea collar!",4,#da8787,#da8787,700 pts,Permanent,#ffffff,     ,n,y,y,20 pts,n,0,5,cd
+1,Werewolf,"No, I don't need a flea collar!",4,#da8787,#da8787,700 pts,Permanent,#ffffff,     ,n,y,y,20 pts,n,0,5,cd
+1,Assassin,,4,#da8787,#da8787,700 pts,Permanent,#ffffff,     ,n,n,y,10 pts,n,0,6,cxd
+1,Assassin,,4,#da8787,#da8787,700 pts,Permanent,#ffffff,     ,n,n,y,10 pts,n,0,6,cxd
+1,Assassin,,4,#da8787,#da8787,700 pts,Permanent,#ffffff,     ,n,n,y,10 pts,n,0,6,cxd
+1,Vampire,"Ah, 1742, an excellent year, you can taste the white blood cells from the plague.",4,#da8787,#da8787,700 pts,Permanent,#ffffff,     ,y,n,y,0 pts,y,1,6,cxd
+1,Vampire,"Ah, 1742, an excellent year, you can taste the white blood cells from the plague.",4,#da8787,#da8787,700 pts,Permanent,#ffffff,     ,y,n,y,0 pts,y,1,6,cxd
+1,The Headless Duke,,5,#e6e6e6,#e6e6e6,950 pts,Permanent,#ffffff,Can move through token blocked cities,n,n,y,10 pts,n,0,6,cxd
+1,"Groustfrat, the Necromancer",,5,#e6e6e6,#e6e6e6,950 pts,Permanent,#ffffff,Functions as 4 skeletons,n,n,n,N/A,n,0,N/A,
+1,Doctor Frankenstein,"No, he's my monster, I'm Frankenstein, you halfwit!",5,#e6e6e6,#e6e6e6,950 pts,Permanent,#ffffff,Does not require a token on route.,n,n,y,10 pts,n,0,5,cxd
+1,Count Vlad,,5,#e6e6e6,#e6e6e6,1050 pts,Permanent,#ffffff,Can jump once between two tokens belonging to the employer during the route,y,n,y,0 pts,y,1,7,cxd
+1,Count Dracula,,5,#e6e6e6,#e6e6e6,1200 pts,Permanent,#ffffff,Can use Dracula's Moving Castle as a token,y,n,y,0 pts,y,2,Inf.,cxd
+1,Duke Lupin,,5,#e6e6e6,#e6e6e6,1200 pts,Permanent,#ffffff,Can visit all cities with front’s tokens and all immediately adjacent open routes. Does not prevent route being covered by another monster.,n,y,y,30 pts,n,0,N/A,
+1,Werewolf Lord,,5,#e6e6e6,#e6e6e6,1100 pts,Permanent,#ffffff,Costs 800 if trading in Werewolf,n,y,y,30 pts,n,0,Inf.,cd
+1,Werewolf Lord,,5,#e6e6e6,#e6e6e6,1100 pts,Permanent,#ffffff,Costs 800 if trading in Werewolf,n,y,y,30 pts,n,0,Inf.,cd
+1,Werewolf Lord,,5,#e6e6e6,#e6e6e6,1100 pts,Permanent,#ffffff,Costs 800 if trading in Werewolf,n,y,y,30 pts,n,0,Inf.,cd
+1,Werewolf Lord,,5,#e6e6e6,#e6e6e6,1100 pts,Permanent,#ffffff,Costs 800 if trading in Werewolf,n,y,y,30 pts,n,0,Inf.,cd
+1,Werewolf Lord,,5,#e6e6e6,#e6e6e6,1100 pts,Permanent,#ffffff,Costs 800 if trading in Werewolf,n,y,y,30 pts,n,0,Inf.,cd
+1,Werewolf Lord,,5,#e6e6e6,#e6e6e6,1100 pts,Permanent,#ffffff,Costs 800 if trading in Werewolf,n,y,y,30 pts,n,0,Inf.,cd
+1,Werewolf Lord,,5,#e6e6e6,#e6e6e6,1100 pts,Permanent,#ffffff,Costs 800 if trading in Werewolf,n,y,y,30 pts,n,0,Inf.,cd
+1,Werewolf Lord,,5,#e6e6e6,#e6e6e6,1100 pts,Permanent,#ffffff,Costs 800 if trading in Werewolf,n,y,y,30 pts,n,0,Inf.,cd
+1,Vampire Lord,,5,#e6e6e6,#e6e6e6,1100 pts,Permanent,#ffffff,Costs 800 if trading in Vampire,y,n,y,0 pts,y,2,Inf.,cxd
+1,Vampire Lord,,5,#e6e6e6,#e6e6e6,1100 pts,Permanent,#ffffff,Costs 800 if trading in Vampire,y,n,y,0 pts,y,2,Inf.,cxd
+1,Vampire Lord,,5,#e6e6e6,#e6e6e6,1100 pts,Permanent,#ffffff,Costs 800 if trading in Vampire,y,n,y,0 pts,y,2,Inf.,cxd
+1,Vampire Lord,,5,#e6e6e6,#e6e6e6,1100 pts,Permanent,#ffffff,Costs 800 if trading in Vampire,y,n,y,0 pts,y,2,Inf.,cxd
+1,Vampire Lord,,5,#e6e6e6,#e6e6e6,1100 pts,Permanent,#ffffff,Costs 800 if trading in Vampire,y,n,y,0 pts,y,2,Inf.,cxd
+1,Vampire Lord,,5,#e6e6e6,#e6e6e6,1100 pts,Permanent,#ffffff,Costs 800 if trading in Vampire,y,n,y,0 pts,y,2,Inf.,cxd
+1,Vampire Lord,,5,#e6e6e6,#e6e6e6,1100 pts,Permanent,#ffffff,Costs 800 if trading in Vampire,y,n,y,0 pts,y,2,Inf.,cxd
+1,Vampire Lord,,5,#e6e6e6,#e6e6e6,1100 pts,Permanent,#ffffff,Costs 800 if trading in Vampire,y,n,y,0 pts,y,2,Inf.,cxd
+1,Master Assassin,,5,#e6e6e6,#e6e6e6,1250 pts,Permanent,#ffffff,Costs 900 if trading Assassin,n,n,y,20 pts,n,0,Inf.,cxd
+1,Master Assassin,,5,#e6e6e6,#e6e6e6,1250 pts,Permanent,#ffffff,Costs 900 if trading Assassin,n,n,y,20 pts,n,0,Inf.,cxd
+1,Master Assassin,,5,#e6e6e6,#e6e6e6,1250 pts,Permanent,#ffffff,Costs 900 if trading Assassin,n,n,y,20 pts,n,0,Inf.,cxd
+1,Master Assassin,,5,#e6e6e6,#e6e6e6,1250 pts,Permanent,#ffffff,Costs 900 if trading Assassin,n,n,y,20 pts,n,0,Inf.,cxd
+1,Master Assassin,,5,#e6e6e6,#e6e6e6,1250 pts,Permanent,#ffffff,Costs 900 if trading Assassin,n,n,y,20 pts,n,0,Inf.,cxd
+1,Master Assassin,,5,#e6e6e6,#e6e6e6,1250 pts,Permanent,#ffffff,Costs 900 if trading Assassin,n,n,y,20 pts,n,0,Inf.,cxd
+1,Master Assassin,,5,#e6e6e6,#e6e6e6,1250 pts,Permanent,#ffffff,Costs 900 if trading Assassin,n,n,y,20 pts,n,0,Inf.,cxd
+1,Master Assassin,,5,#e6e6e6,#e6e6e6,1250 pts,Permanent,#ffffff,Costs 900 if trading Assassin,n,n,y,20 pts,n,0,Inf.,cxd
