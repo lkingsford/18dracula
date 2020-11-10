@@ -1,5 +1,12 @@
 # 18Dracula: Medieval Edition - Change List
 
+## Unreleased
+
+- Fix Molemen Inc Typo
+- Monsters beyond limits into market
+- Added first real pass of stock round rules
+
+
 ## 2020-11-05
 
 - Reduced phase 3 to 5->4 monsters
