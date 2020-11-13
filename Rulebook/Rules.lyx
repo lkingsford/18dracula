@@ -96,7 +96,7 @@ Lachlan Kingsford
 \end_layout
 
 \begin_layout Date
-Prototype rules as of 2020-11-10
+Prototype rules as of 2020-11-13
 \end_layout
 
 \begin_layout Standard
@@ -2671,7 +2671,7 @@ Price:
 
 \begin_layout Standard
 Starts with 1 Nurse, 1 Token in Blackford.
- Starts with 30 pts in store.
+ Starts with 30 pts in store out of bank.
  Pays half collection to owner, half to store.
  On purchase, remove offices or optionally replace them with the next offices
  from purchasing front without additional payment.

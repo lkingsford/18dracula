@@ -1,10 +1,17 @@
 # 18Dracula: Medieval Edition - Change List
 
-## Unreleased
+## 2020-11-13
 
 - Fix Molemen Inc Typo
 - Monsters beyond limits into market
 - Added first real pass of stock round rules
+- Major monster changes - including:
+	- Made all claws and humans stop at dits
+	- Made all claws ditvalue 20
+	- Limited werewolf lords to 10 mvt rather than inf.
+	- Added 'Pup' to Phase 2
+	- Added 2->3 Vampire, 2->3 Werewolf, 3->1 Assassin, 8->1 Master Assassin
+	- Price changes throughout
 
 
 ## 2020-11-05
