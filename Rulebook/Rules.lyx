@@ -96,7 +96,7 @@ Lachlan Kingsford
 \end_layout
 
 \begin_layout Date
-Prototype rules as of 2020-10-31
+Prototype rules as of 2020-11-13
 \end_layout
 
 \begin_layout Standard
@@ -162,12 +162,12 @@ literal "false"
 \begin_layout Standard
 If you wish to play online, a spreadsheet is available
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset CommandInset href
 LatexCommand href
-target "https://docs.google.com/spreadsheets/d/11zcJjIWMCTnQcx7NUY72Xajo6_ar6Vo-ShtOKUMLrRY/edit?usp=sharing"
+target "https://drive.google.com/drive/folders/1zIjgIP0-snOigpSRs4YVOvDRNMsRCbFi?usp=sharing"
 literal "false"
 
 \end_inset
@@ -508,41 +508,262 @@ Stock Round
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
 
-\series bold
-TODO: Fill this out.
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/Market.png
+	width 80mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Stock Market
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 Summary
 \end_layout
 
-\begin_layout Itemize
-Same as 1830
+\begin_layout Standard
+During the stock round, players in clockwise order, starting with the player
+ with the Priority Deal marker, may:
 \end_layout
 
 \begin_layout Itemize
-Sell, Buy, Sell
+optionally sell share certificates;
 \end_layout
 
 \begin_layout Itemize
-60% to Float
+optionally buy a share certificate or associate from another player; then
+ 
 \end_layout
 
 \begin_layout Itemize
-60% max ownership of share unless in orange zone
+optionally sell share certificates.
+\end_layout
+
+\begin_layout Standard
+Alternatively, the player may pass and take no actions.
+ A player who has pamultiple ssed can still participate in the stock round
+ in their future turns.
+\end_layout
+
+\begin_layout Standard
+The stock round continues until all players have passed consecutively.
+ The player to the left of the last player to purchase or sell a certificate
+ receives the Priority Deal marker.
+\end_layout
+
+\begin_layout Subsection
+Selling Share Certificates
+\end_layout
+
+\begin_layout Standard
+A player can sell any number of shares they own, from any number of fronts.
+ Players sell their shares to the market, and then receive the current value
+ of the shares (being the current price 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\times$
+\end_inset
+
+ the amount of shares being sold).
+ Then, the stock price is moved down one space on the market for each share
+ sold unless it can move no further.
+\end_layout
+
+\begin_layout Standard
+If there are 5 certificates for a front in the market, a player can not
+ sell more shares into the market.
+\end_layout
+
+\begin_layout Subsubsection
+President certificate
+\end_layout
+
+\begin_layout Standard
+A player never actually sells the president certificate into the market.
+ 
+\end_layout
+
+\begin_layout Standard
+If the president has less shares in a front than another player after selling,
+ then exchange the president certificate with two of that players certificates
+ for the front.
+ If the president has less shares in a front than another player after selling,
+ then exchange the president certificate with two of that players certificates
+ for the front.
+ If there are multiple players with the same amount of certificates, then
+ the first player clockwise to the president swaps their certificate.
+\end_layout
+
+\begin_layout Standard
+If there are no other players with 2 or more shares, then the president
+ certificate can not be transferred and the player will not be able to sell
+ the last 2 shares that the president certificate represents.
+\end_layout
+
+\begin_layout Subsection
+Purchasing Share Certificates
+\end_layout
+
+\begin_layout Standard
+A player may purchase an available share certificate from the front's IPO,
+ or the market.
+ A player may not purchase a certificate in a front that they have sold
+ any certificates of during this stock round.
+ If purchasing from the IPO, the player pays the IPO price of the front
+ to the bank, and takes the certificate.
+ If purchasing from the market, the player pays the current market price
+ of the front to the bank, and takes the certificate.
+\end_layout
+
+\begin_layout Standard
+A player may not purchase more than 5 certificates (including the President
+ Certificate) in a front unless the front is in the 
+\begin_inset Quotes eld
+\end_inset
+
+orange zone
+\begin_inset Quotes erd
+\end_inset
+
+ on the stock market.
+\end_layout
+
+\begin_layout Standard
+If the player now has more shares than the current president of the front,
+ exchange two of the players shares with the current president for the President
+ Certificate.
+\end_layout
+
+\begin_layout Subsubsection
+Initial purchase of the President Certificate
+\end_layout
+
+\begin_layout Standard
+The player who purchases the President Certificate sets the price of the
+ front.
+ Select one of the prices in the IPOs box, and place one of the front's
+ tokens in the relevant space on the IPO box, and one in the matching red
+ space in the market.
+ The player pays 2 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\times$
+\end_inset
+
+ the IPO value to the bank, and gets the President Certificate.
+\end_layout
+
+\begin_layout Subsubsection
+Floating a front
+\end_layout
+
+\begin_layout Standard
+When 60% of a front is sold (being 5 certificates), the front is floated
+ and starts.
+ Place 10 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\times$
+\end_inset
+
+ the IPO Value on the treasury in the front's charter.
+ Place the front's home office in its reserved home city on the map.
+ The company is now started and will operate from the Operating Round following
+ the Stock Round.
+ 
+\end_layout
+
+\begin_layout Subsection
+Purchase Associate
+\end_layout
+
+\begin_layout Standard
+With consent of both players, a player may purchase an open associate from
+ another player for any price greater than 1 pt.
+ The player can not purchase any other associates or share certificates
+ until their next turn.
 \end_layout
 
 \begin_layout Subsection
 First stock round
 \end_layout
 
+\begin_layout Standard
+The first stock round is played in the same manner as other stock rounds,
+ with the following exceptions:
+\end_layout
+
 \begin_layout Itemize
-Priority deal is player who purchased 'Innsmouth Library'
+The player who purchased 'Innsmouth Library' starts the first round with
+ the Priority Deal marker
 \end_layout
 
 \begin_layout Itemize
 Shares can not be sold
+\end_layout
+
+\begin_layout Itemize
+Associates can not be purchased
 \end_layout
 
 \begin_layout Subsection
@@ -575,17 +796,47 @@ If no bids are made, then Dracula's Moving Castle does not move.
 \end_layout
 
 \begin_layout Subsection
-Certificate Limit
+Certificate Limits
+\end_layout
+
+\begin_layout Subsubsection
+Overall certificate limit
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="2">
+<lyxtabular version="3" rows="6" columns="2">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Certificate Limit
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -605,7 +856,7 @@ Certificate Limit
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -625,7 +876,7 @@ Certificate Limit
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -645,7 +896,7 @@ Certificate Limit
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -665,7 +916,7 @@ Certificate Limit
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -691,21 +942,82 @@ Certificate Limit
 
 \end_layout
 
-\begin_layout Itemize
-Associates that are not closed count as a certificate
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Certificate limits per number of players
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Certificate-limits-per"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Players may only have as many certificates as shown in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Certificate-limits-per"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ The following things count as a certificate:
 \end_layout
 
 \begin_layout Itemize
-Yellow zone shares do not count as a certificate
+Associates that are not closed, and are owned by players
 \end_layout
 
 \begin_layout Itemize
-20% President shares counts as one certificate
+President certificates in fronts that are in the 'white zone' of the stock
+ market
 \end_layout
 
 \begin_layout Itemize
-If ever above certificate limit, must sell sufficient certificates at first
- opportunity during a stock round
+Share certificates in fronts that are in the 'white zone' of the stock market
+\end_layout
+
+\begin_layout Standard
+This is a limit on the amount of certificates - not the amount of shares.
+ Each president certificate counts as one certificate, despite counting
+ as two shares.
+\end_layout
+
+\begin_layout Standard
+If a player is ever above the certificate limit during their turn in a stock
+ round, then they must sell enough shares to be under the limit using the
+ usual selling rules.
+\end_layout
+
+\begin_layout Subsubsection
+Per-front certificate limit
+\end_layout
+
+\begin_layout Standard
+If a front is not in the 'orange zone' on the stock market, then no player
+ may hold more than 5 share certificates (including the President Certificate)
+ in that front.
+ If a player holds more than 5 certificates in a front that is not in the
+ 'orange zone' of the market during a their turn in a stock round, then
+ they must sell enough shares to be under the limit using the usual selling
+ rules.
 \end_layout
 
 \begin_layout Section
@@ -946,16 +1258,16 @@ Colour
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="3">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -1197,7 +1509,7 @@ During the first phase, only Yellow Cubes are available.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -1457,7 +1769,7 @@ Movement
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1516,8 +1828,8 @@ status open
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="2">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top" width="5cm">
+<column alignment="center" valignment="middle">
+<column alignment="center" valignment="middle" width="5cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -1539,7 +1851,7 @@ Meaning
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1553,7 +1865,7 @@ Meaning
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1564,7 +1876,7 @@ Visits a city with an office only.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1578,7 +1890,7 @@ Visits a city with an office only.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1590,7 +1902,7 @@ Route may cover up to three cities, and infinite towns.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1604,7 +1916,7 @@ Route may cover up to three cities, and infinite towns.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1615,7 +1927,7 @@ Route may cover infinite towns or ports, and infinite towns.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1629,7 +1941,7 @@ Route may cover infinite towns or ports, and infinite towns.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1641,7 +1953,7 @@ Route may cover a total of up to five cities or off-board locations, and
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1655,7 +1967,7 @@ Route may cover a total of up to five cities or off-board locations, and
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1959,6 +2271,13 @@ Whenever a monster is purchased from the bank, move the phase tracker to
 
 \begin_layout Subsubsection
 Purchase from the market
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Purchase-from-the"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2009,6 +2328,22 @@ Monsters can not be purchased if it means that the front will have more
  A front can not purchase a monster when it is at the limit even if it means
  that, by monsters being eaten, it would not be past the limit after purchasing
  it.
+\end_layout
+
+\begin_layout Standard
+If a front is ever over the monster limit, then the president must immediately
+ discard monsters of their choice to the market, for no compensation.
+ These may be purchased by other players at face value from the market (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Purchase-from-the"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Subsubsection
@@ -2336,7 +2671,7 @@ Price:
 
 \begin_layout Standard
 Starts with 1 Nurse, 1 Token in Blackford.
- Starts with 30 pts in store.
+ Starts with 30 pts in store out of bank.
  Pays half collection to owner, half to store.
  On purchase, remove offices or optionally replace them with the next offices
  from purchasing front without additional payment.
@@ -2366,8 +2701,8 @@ Revenue:
 \end_layout
 
 \begin_layout Standard
-Once purchased by a front, actvate to place an office in any available office
- space, paying its usual cost.
+Once purchased by a front, activate to place an office in any available
+ office space, paying its usual cost.
  The office does not need to be connected.
 \end_layout
 
