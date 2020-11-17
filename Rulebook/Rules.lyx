@@ -96,7 +96,7 @@ Lachlan Kingsford
 \end_layout
 
 \begin_layout Date
-Prototype rules as of 2020-11-13
+Prototype rules as of 2020-11-18
 \end_layout
 
 \begin_layout Standard
@@ -2432,6 +2432,22 @@ the front has either 0 pts of blood or no other front is willing to sell
 \begin_layout Standard
 then they must declare a technical bankruptcy, ending the game.
  The player then treats it as a bankruptcy.
+\end_layout
+
+\begin_layout Subsection
+Purchase Associates
+\end_layout
+
+\begin_layout Standard
+A front may purchase an associate off a player for any price from 1 pt to
+ twice the base cost of the associate, with the consent of the player who
+ owns the associate and the president of the front.
+\end_layout
+
+\begin_layout Standard
+Unlike the other parts of the OR, this may be done at any time during the
+ front's OR, including after the purchase of monsters before the next front
+ operates.
 \end_layout
 
 \begin_layout Section
