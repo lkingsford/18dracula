@@ -1,5 +1,14 @@
 # 18Dracula: Medieval Edition - Change List
 
+## Unreleased
+- Add Purchase Associates section to OR
+- Add OR tracker to board
+- Add connection colours to board
+
+## 2020-11-16
+- Fix a number of issues with the CSV card export
+- ... and again a few hours later
+
 ## 2020-11-13
 
 - Fix Molemen Inc Typo
