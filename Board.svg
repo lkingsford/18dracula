@@ -250,9 +250,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.603206"
-     inkscape:cx="569.00646"
-     inkscape:cy="1696.819"
+     inkscape:zoom="3.206412"
+     inkscape:cx="477.43444"
+     inkscape:cy="1819.2543"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -7168,7 +7168,7 @@
        inkscape:randomized="0"
        d="m 338.71237,533.17997 -1.92718,-3.33798 3.85437,0 z"
        inkscape:transform-center-y="-1.8999102e-06"
-       transform="rotate(-90,343.64145,551.74085)"
+       transform="rotate(-90,343.49017,551.89213)"
        inkscape:transform-center-x="-0.5062654" />
     <path
        sodipodi:type="star"
@@ -7186,7 +7186,7 @@
        inkscape:randomized="0"
        d="m 338.71237,516.72575 -1.92718,-3.33798 3.85437,0 z"
        inkscape:transform-center-y="-1.8999102e-06"
-       transform="rotate(-90,343.5756,551.8067)"
+       transform="rotate(-90,343.49996,551.88234)"
        inkscape:transform-center-x="-0.5062654" />
     <path
        sodipodi:type="star"
@@ -8309,7 +8309,7 @@
        inkscape:randomized="0"
        d="m 338.71237,549.95683 -1.92718,-3.33799 3.85437,0 z"
        inkscape:transform-center-y="-1.8999102e-06"
-       transform="rotate(-90,343.54598,551.83632)"
+       transform="rotate(-90,343.31906,552.06324)"
        inkscape:transform-center-x="-0.5062654" />
     <g
        id="g2926"
