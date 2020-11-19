@@ -96,7 +96,7 @@ Lachlan Kingsford
 \end_layout
 
 \begin_layout Date
-Prototype rules as of 2020-11-18
+Prototype rules as of 2020-11-19
 \end_layout
 
 \begin_layout Standard
@@ -1712,6 +1712,14 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
+The home spaces (indicated by their logo) of fronts are reserved and can
+ not be built by any other front.
+ When Blundell Transfusions or Lupin's Lipids are purchased, their home
+ spaces are no longer reserved if the purchasing front does not replace
+ the associates office with its own.
+\end_layout
+
+\begin_layout Standard
 Fronts must always build the next cheapest office available.
  
 \end_layout
@@ -3180,6 +3188,12 @@ Thank you to Jayde, my wife for her support and patience with this slightly
 Thank you to the 18XX community - and specifically my early online groups
  - who have been so welcoming to me over the last few years, patient with
  design, and patiently teaching me to play.
+\end_layout
+
+\begin_layout Standard
+Thank you to Scott Seifert aka gc2 who went to a massive amount of effort
+ to create the 18Dracula Tabletop Simulator mod, including making some presentat
+ion decisions that have carried over to the Medieval Edition.
 \end_layout
 
 \begin_layout Standard
