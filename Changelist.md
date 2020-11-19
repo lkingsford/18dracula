@@ -4,6 +4,11 @@
 - Add Purchase Associates section to OR
 - Add OR tracker to board
 - Add connection colours to board
+- Add reserved office rule
+- Clarify skip rule for picking higher color cube
+- Rewording of Build Routes
+- Added extended example of route building
+- Made the terms for Front/Associate/Pint clearer in Background
 
 ## 2020-11-16
 - Fix a number of issues with the CSV card export

@@ -96,7 +96,7 @@ Lachlan Kingsford
 \end_layout
 
 \begin_layout Date
-Prototype rules as of 2020-11-19
+Prototype rules as of 2020-11-20
 \end_layout
 
 \begin_layout Standard
@@ -249,10 +249,27 @@ There is also a little more intention to be perhaps a little less balanced
 \end_layout
 
 \begin_layout Standard
-Instead of train companies, you will have stock in fronts.
- Instead of privates, you have associates.
- Instead of trains, you have monsters.
- Instead of dollars, you have pints (of blood, that is).
+Instead of train companies, you buy stock in legitimate looking businesses,
+ that are a '
+\series bold
+Front
+\series default
+' for blood thieves.
+ Instead of privates, you have '
+\series bold
+Associates
+\series default
+'.
+ Instead of trains, you have '
+\series bold
+Monsters
+\series default
+'.
+ Instead of dollars, you have '
+\series bold
+Pints
+\series default
+' (of blood, that is).
 \end_layout
 
 \begin_layout Standard
@@ -807,7 +824,7 @@ Overall certificate limit
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -1060,7 +1077,7 @@ These changes take place immediately.
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -1256,6 +1273,7 @@ Colour
 
 \begin_layout Standard
 \begin_inset Float table
+placement h
 wide false
 sideways false
 status open
@@ -1445,7 +1463,7 @@ name "tab:Colour-upgrade-order"
 A route connects two locations.
  To determine the colour required, consider the amount of routes each of
  the two locations will have following building the route.
- The higher of the two numbers shows what colour is required on Table 
+ The higher of the two numbers shows what colour is required on 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Colour-upgrade-order"
@@ -1459,38 +1477,12 @@ noprefix "false"
  
 \end_layout
 
-\begin_layout Quote
-
-\series bold
-Example
-\end_layout
-
-\begin_layout Quote
-We want to connect Blackford to Keifercourt.
- Blackford has a connection to Hollick.
- Keifercourt has a connection to Morefrite, and a connection to Badlands.
- As it is the 3rd connection to Keifercourt, (which is higher than the 2nd
- connection to Blackford), it must be a Green cube.
-\end_layout
-
 \begin_layout Standard
-If a cube colour on one side has been 'skipped' (by virtue of another earlier
- route being higher from the other side, or by a special red space), then
- its colour is the colour it skipped.
- A front still needs to use the higher of the two colours..
-\end_layout
-
-\begin_layout Quote
-
-\series bold
-Example
-\end_layout
-
-\begin_layout Quote
-Sadie is connecting to Balath.
- Sadie has a green cube connecting to Blackford, and a yellow cube connecting
- to Overlook.
- As one yellow cube was 'skipped', the connection to Sadie must be yellow.
+If a cube colour on one side has been 'skipped' (by an earlier connection,
+ or by a special red space), then that location's colour is the lowest colour
+ that was skipped.
+ Still use the highest of that colour, and the colour of the location on
+ the other side.
 \end_layout
 
 \begin_layout Standard
@@ -1510,7 +1502,7 @@ During the first phase, only Yellow Cubes are available.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -1540,7 +1532,144 @@ name "fig:Example-of-route"
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide true
+sideways false
+status collapsed
+
+\begin_layout Subsubsection*
+Extended example of Route Building
+\end_layout
+
 \begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="left" valignment="middle" width="45page%">
+<column alignment="left" valignment="middle" width="35page%">
+<row topspace="0.5cm" bottomspace="0.5cm" interlinespace="0.5cm">
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/TrackExample.1.png
+	lyxscale 5
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Engels Travelling Theatre (
+\begin_inset Graphics
+	filename Images/ETT.png
+	lyxscale 50
+	height 90baselineskip%
+
+\end_inset
+
+) builds a yellow cube between Overlook and Sadie, and between Sadie and
+ Balath.
+ The cube between Overlook and Sadie is yellow, because it's the first (yellow)
+ connection out of Sadie, and the second (yellow) connection out of Overlook.
+ The other cube is the first connection out of Sadie, and the second out
+ of Balath.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.5cm" bottomspace="0.5cm" interlinespace="0.5cm">
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/TrackExample.2.png
+	lyxscale 5
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Some monsters have been purchased, and it is now Phase 2 - meaning Green
+ cubes can be built.
+ Blundell Transfusions (
+\begin_inset Graphics
+	filename Images/BT.png
+	lyxscale 50
+	height 90baselineskip%
+
+\end_inset
+
+) builds a green cube between Blackford and Sadie.
+ The cube is green because it is the first (yellow) connection out of Blackford
+ , but the third (green) connection out of Sadie.
+ Because green is a higher colour cube than yellow, it has to be green.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.5cm" bottomspace="0.5cm" interlinespace="0.5cm">
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/TrackExample.3.png
+	lyxscale 5
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Blundell Transfusions builds a yellow cube to Morlock, then a yellow cube
+ to Keifercourt.
+ The connection to Morlock is the second (yellow) connection out of Blackford.
+ The connection to Keifercourt is the third (green) connection out of Blackford.
+ But, Blackford already has a green cube, and 'skipped' the lower yellow
+ cube.
+ Therefore, the connection to Keifercourt is yellow.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
 
 \end_layout
 
@@ -1555,9 +1684,10 @@ Level of city
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -1830,7 +1960,7 @@ noprefix "false"
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
