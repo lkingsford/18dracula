@@ -1474,9 +1474,10 @@ We want to connect Blackford to Keifercourt.
 \end_layout
 
 \begin_layout Standard
-If a cube colour on the higher side has been 'skipped' (by virtue of another
- earlier route being higher from the other side, or by a special red space),
- then use the skipped colour.
+If a cube colour on one side has been 'skipped' (by virtue of another earlier
+ route being higher from the other side, or by a special red space), then
+ its colour is the colour it skipped.
+ A front still needs to use the higher of the two colours..
 \end_layout
 
 \begin_layout Quote
@@ -1509,7 +1510,7 @@ During the first phase, only Yellow Cubes are available.
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
