@@ -1,6 +1,6 @@
 # 18Dracula: Medieval Edition - Change List
 
-## Unreleased
+## 2020-11-20
 - Add Purchase Associates section to OR
 - Add OR tracker to board
 - Add connection colours to board
