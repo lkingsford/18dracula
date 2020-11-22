@@ -420,7 +420,7 @@ pts equally between the players.
 \end_layout
 
 \begin_layout Itemize
-Place a yellow cube in the first space of the phase tracker.
+Place a cube in the first space of the phase tracker.
 \end_layout
 
 \begin_layout Itemize
@@ -2745,9 +2745,9 @@ Revenue:
 \end_layout
 
 \begin_layout Standard
-Once owned by a front, activate during turn to remove any yellow cube from
- the board, or add a yellow cube anywhere on the board where a yellow cube
- is allowed.
+Once owned by a front, activate at any time during turn to remove any yellow
+ cube from the board, or add a yellow cube anywhere on the board where a
+ yellow cube is allowed.
  The cube does not need to be connected
 \end_layout
 
@@ -2773,11 +2773,11 @@ Revenue:
 \end_layout
 
 \begin_layout Standard
-Once owned by a front, activate during turn to reserve the next office space
- that will open and is connected to the front.
+Once owned by a front, activate as place office action to reserve the next
+ office space that will open and is connected to the front.
  Pay for the token, and place it upside down.
  It is flipped, and becomes an office, when the office space is opened by
- the usual building of a route.
+ the usual building of a route
 \end_layout
 
 \begin_layout Standard
@@ -2856,9 +2856,11 @@ Revenue:
 \end_layout
 
 \begin_layout Standard
-Once purchased by a front, activate to place an office in any available
- office space, paying its usual cost.
- The office does not need to be connected.
+Once purchased by a front, activate at any time during turn to place the
+ Molemen Tunnel tokens in open office locations.
+ At least one side must be connected to the front.
+ It then is a route for between those two locations.
+ It does not count as a route for cube-placement rules.
 \end_layout
 
 \begin_layout Standard

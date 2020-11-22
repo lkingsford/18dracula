@@ -1,5 +1,9 @@
 # 18Dracula: Medieval Edition - Change List
 
+## Unreleased
+- Clarified when powers used on associates
+- Changed Molemen power to a connect-two-locations power rather than the teleport token
+
 ## 2020-11-20
 - Add Purchase Associates section to OR
 - Add OR tracker to board
